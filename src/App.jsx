@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Layout from './Layout';
-import Home from './Home';
-import OtherPage from './OtherPage';
+import Layout from './pages/Layout';
+import Home from './pages/Home';
+import OtherPage from './pages/OtherPage';
 
 export default function App() {
   return (
