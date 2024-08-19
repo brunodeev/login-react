@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyp7FFYRwNKbTumOgu4zGIJOQpv8y0ngkLHw&s');
+    background-size: 3%;
+    scale: 2;
+    background-repeat: space;
+    opacity: 0.1;
+    transform: rotate(40deg);
+}
+
+.card {
+    position: relative;
+    width: 25%;
+    height: 60%;
+    background-color: #f9f9f9;
+    box-shadow: 4px 4px 8px 3px rgba(0, 0, 0, .1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60%;
+    width: 70%;
+}
+
+span {
+    font-size: 32px;
+}
+
+button {
+    border: none;
+    width: 70%;
+    height: 10%;
+    border-radius: 8px;
+    background-color: cadetblue;
+    color: #f9f9f9;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    background-color: rgb(81, 137, 140);
+    transform: scale(0.99);
+}
